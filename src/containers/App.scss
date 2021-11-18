@@ -1,0 +1,41 @@
+@import "../styles/common.scss";
+
+.main-container {
+  animation: linear 1s;
+  scroll-behavior: smooth;
+  .content-container {
+    animation: linear 1s;
+
+
+    .arrow-up {
+      animation: arrow-up linear 1s;
+      cursor: pointer;
+      padding: 6px;
+      background-color: white;
+      position: fixed;
+      right: 20px;
+      bottom: 40px;
+      z-index: 10;
+      border-radius: 50%;
+      border: 2px solid black;
+
+    }
+
+    .active-arrow {
+      display: none;
+    }
+
+
+    @keyframes arrow-up {
+      from {
+        opacity: 0;
+        margin-bottom: -50px;
+      }
+
+      to {
+        opacity: 1;
+        margin-bottom: 0;
+      }
+    }
+  }
+}

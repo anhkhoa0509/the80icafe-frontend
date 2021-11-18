@@ -1,0 +1,70 @@
+.adminPage {
+  min-height: 721px;
+  padding: 0;
+  cursor: pointer;
+  .adminPage-dashboard {
+    background: #4d5df9;
+    color: white;
+    font-size: 24px;
+    min-height: 721px;
+    padding: 0;
+    .adminPage-body{
+      width: 100%;
+      .admin-title{
+        margin-top: 24px;
+      }
+    }
+    .logo {
+      width: 100%;
+      display: flex;
+      padding: 12px;
+      background-color: black;
+
+      .img-logo {
+        width: 150px;
+        margin: auto;
+        background: white;
+        margin: 0 auto;
+      }
+    }
+      .name-admin {
+        text-align: center;
+        margin-top:12px;
+        .icon{
+        margin: 0 12px;
+        }
+      }
+
+      .manage{
+        background: white;
+        padding: 6px 12px;
+        text-align: center;
+        margin-bottom: 12px;
+        font-weight: bold;
+        color: black;
+        margin-left:-32px;
+        .icon{
+          margin: 0 12px;
+        }
+
+      }
+    .dashboard-items {
+      list-style: none;
+      padding: 0;
+      .dashboard-item {
+        padding: 12px 0 12px 12px  ;
+        text-decoration: none;
+        
+        .nav-link{
+          color: white;
+          opacity:0.6;
+        }
+        .icon{
+          margin: 0 12px;
+        }
+      }
+     
+    }
+
+  }
+}

@@ -1,0 +1,115 @@
+.login{
+    .login-left{
+        .login-left-header-items{
+            margin-left: 36px;
+            .login-left-header-item{
+                cursor: pointer;
+                .icon{
+                    margin: 0 12px;
+                }
+            }
+            .active{
+              font-weight: bold;
+            }
+            .login-left-header-logout{
+                cursor: pointer;
+
+            }
+        }
+        .login-left-header{
+        }
+    }
+    .login-right{
+        .user-form{
+            border: none;
+        }
+        .div-btn {
+            display: flex;
+            justify-content: space-around;
+            .btn-clear{
+      
+            }
+            .btn-submit{
+              border: 1px solid;
+              border-radius:250px;
+            }
+          }
+      
+          padding-top: 36px;
+      
+          .cart-right-text {
+            font-size: 24px;
+            font-weight: bold;
+          }
+      
+          .cart-right-items {
+            list-style: none;
+            padding: 0;
+            border: 2px solid rgb(36, 32, 82);
+            border-radius: 10px;
+      
+            span {
+              margin: auto;
+      
+            }
+      
+            .cart-right-header,
+            .cart-right-item {
+              padding: 12px;
+              display: flex;
+              font-size:18px;
+              justify-content: space-between;
+              border-bottom: 1px solid;
+              cursor: pointer;
+              text-align: center;
+              .sumPrice{
+                .icon-clear{
+                  position: absolute ;
+                  top: -29px ;
+                  right: -14px ;
+                }
+                .icon-clear:hover{
+                  opacity: 0.8;
+                  background-color: #ccc;
+                }
+              }
+              .gr-icon-change {
+                padding: 12px 0;
+                cursor: pointer;
+      
+                .icon-change {
+                  font-size: 24px;
+                  color: #53382c;
+                }
+      
+                .icon-disabled {
+                  color: #ccc;
+                }
+      
+                .current-value {
+                  padding: 0 12px;
+                  line-height: 36px;
+                }
+      
+              }
+      
+            }
+      
+            .cart-right-header, .cart-right-footer {
+              font-size: 24px;
+              font-weight: bold;
+            }
+      
+            .cart-right-footer {
+              display: flex;
+              justify-content: space-around;
+              padding: 6px;
+      
+            }
+          }
+    }
+   
+}
+
+    
+  

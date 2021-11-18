@@ -1,0 +1,49 @@
+.change-product {
+    padding-top: 75px;
+    text-align: center;
+
+    .full-product-header {
+        width: 100%;
+        font-style: italic;
+        font-weight: 600;
+        font-size: 32px;
+        text-align: center;
+        color: #242052;
+    }
+    .icon-product{
+        font-size: 46px;
+        color: #ccc;
+    }
+
+    .full-product-body {
+        padding: 0 20%;
+        .background-text {
+            font-weight: 600;
+            font-size: 24px;
+        }
+
+        .background-coffe {
+            .background-coffe-text{
+                font-size:32px;
+                font-weight: 500;
+            }
+            .coffe {
+                width: 180px;
+                background-color: #ccc;
+                border-radius: 50%;
+                cursor: pointer;
+            }
+
+            .active {
+                width: 180px;
+                background-color: #6d4b3d;
+                border-radius: 50%;
+                cursor: pointer;
+
+            }
+        }
+
+
+        
+    }
+}

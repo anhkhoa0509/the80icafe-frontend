@@ -1,0 +1,15 @@
+.description-doctor{
+    .top-formDoctor{
+        display: flex;
+        width: 100%;
+        .textarea-doctor{
+            width: 50%;
+        }
+    }
+
+    .form-input {
+        input {
+            width: 100%;
+        }
+    }
+}

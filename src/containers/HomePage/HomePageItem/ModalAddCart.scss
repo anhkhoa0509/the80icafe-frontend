@@ -1,0 +1,66 @@
+.modal-content {
+  .modal-body {
+    .mess {
+      padding-top: 12px;
+
+    }
+
+    .card-product {
+      display: flex;
+
+      .card-img-top-product {
+        width: 200px;
+        height: 200px;
+        background: #ccc;
+        border-radius: 5px;
+      }
+
+      .card-body-product {
+        flex-direction: column;
+        flex: 1;
+        text-align: center;
+
+        .gr-icon-change {
+          padding: 12px 0;
+          cursor: pointer;
+          .icon-change {
+            color: #53382c;
+          }
+          .icon-disabled {
+            color: #ccc;
+          }
+          .current-value {
+            padding: 0 12px;
+            line-height: 36px;
+          }
+
+        }
+        .change-size{
+          justify-content: space-around;
+          .div-radio {
+            justify-content: space-around
+          }
+
+          .change-size-text {
+            font-size: 18px;
+          }
+        }
+        .change-size{
+          justify-content: space-around;
+
+          .custom-control-label{
+          line-height:36px;
+          }
+        }
+        .card-title-product {
+          color: #53382c;
+        }
+
+        .card-price-product {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+
+}

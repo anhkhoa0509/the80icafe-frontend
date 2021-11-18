@@ -1,0 +1,31 @@
+.addressStore-title {
+    width: 100%;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+}
+.addressStore {
+    .header{
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 12px;
+    }
+    .addressStore-left {
+        .banner {
+            width: 100%;
+            height: 357px;
+        }
+    }
+
+    .addressStore-right {
+        .map-link {
+            width: 100%;
+
+            .map {
+                width: 100%;
+
+            }
+        }
+    }
+}

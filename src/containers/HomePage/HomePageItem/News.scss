@@ -1,0 +1,65 @@
+.news {
+    color:rgb(36, 32, 82);
+
+    padding: 32px 0;
+    .news-header{
+        width: 100%;
+        font-style: italic;
+        font-weight: 600;
+
+        font-size: 32px;
+        text-align: center;
+        .icon-news{
+            font-size:46px;
+            color: #ccc;
+        }
+    }
+    .news-items {
+        list-style: none;
+        .news-item {
+            padding: 0 12px;
+            width: 100%;
+            cursor: pointer;
+            .card{
+                .login{
+                text-decoration: none;
+                    padding:12px 0;
+                    color: #242052;
+                }
+                border: none;
+                .card-body{
+                    padding:6px;
+                    .card-title{
+                        font-size:28px;
+                        font-style: italic;
+                        margin: 6px 0 ;
+                        font-weight: 600;
+                    }
+                    .card-description{
+                        display: -webkit-box;
+                       -webkit-box-orient: vertical;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: normal;
+                        -webkit-line-clamp: 3;
+                        line-height: 1.2rem;
+                        font-size:14px;
+                        padding:0 12px;
+                        margin-bottom: 6px;
+                    }
+                    .card-next{
+                        width:100%;
+                        display:flex;
+                        justify-content:end;
+                        font-style: italic;
+                        font-weight: 600;
+                        
+                    }
+                }
+            }
+        }
+
+    }
+
+
+}

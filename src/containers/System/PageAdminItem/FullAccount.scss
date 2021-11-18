@@ -1,0 +1,14 @@
+.btn-handle{
+    display: flex;
+    justify-content: space-between !important;
+}
+.admin-right{
+    .form-group{
+        position: relative;
+        .eye{
+            position: absolute;
+            right: 24px;
+            top: 50px;
+        }
+    }
+}

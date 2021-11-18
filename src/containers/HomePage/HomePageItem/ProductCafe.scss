@@ -1,0 +1,45 @@
+.product-cafe {
+    padding: 0 12% 48px;
+
+    .product-cafe-items {
+        list-style: none;
+    flex-wrap: wrap;
+        .product-cafe-item {
+            .card {
+                max-height: 303px;
+                text-decoration: none;
+                color: #53382c;
+                margin-bottom: 12px;
+                .card-img-top {
+                    background-color: #fbedd7;
+                    width: 156px;
+                    height: 156px;
+                }
+
+                .card-body {
+                    padding: 6px 0 12px;
+                    text-align: center;
+                    min-height: 150px;
+                    .card-title {
+                        font-size: 18px;
+                        padding: 6px 6px 0 6px;
+                        margin-bottom: 6px;
+                    }
+                    .card-price{
+                        margin-bottom: 12px;
+                        font-size: 18px;
+                    }
+                    .product-cafe-btn {
+                        width: 120px;
+                        font-size: 16px;
+                        background-color: #53382c;
+                        color: white;
+                        padding: 6px 2px;
+
+                    }
+                }
+            }
+        }
+    }
+
+}

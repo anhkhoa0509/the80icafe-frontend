@@ -1,0 +1,20 @@
+.top{
+    padding-top:76px;
+    margin: 0px 20%;
+    .doctor-header {
+        height: 100px;
+        .doctor-header-left {
+            img{
+                border-radius: 50%;
+                border: 1px solid black;
+            }
+        }
+    
+        .doctor-header-right {
+            .like-share-plugin{
+                margin: 10px 0 20px 0;
+            }
+        }
+
+    }
+}

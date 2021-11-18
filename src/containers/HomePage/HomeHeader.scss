@@ -1,0 +1,149 @@
+.pagehome-header-background {
+  margin-top: 12px;
+  animation: 3s linear 1s infinite running slidein;
+  color: #242052;
+  min-height: 0;
+  padding-bottom: 24px;
+
+  .pagehome-header {
+    .pagehome-header-top {
+      border-bottom: 2px solid black;
+
+      .pagehome-header-mid {
+        font-size: 14px;
+        margin: auto;
+      }
+
+      .pagehome-bg-header {
+        padding-right: 0;
+        border-right: 2px solid black;
+        height: 132px;
+        width: 100%;
+        height: 100%;
+
+        .pagehome-header-logo {
+          width: 100px;
+          border-radius: 5px;
+          display: flex;
+          margin: auto;
+          height: 100%;
+
+        }
+      }
+
+      .navbar-collapse {
+        justify-content: space-between;
+      }
+
+      .list-items-header {
+        list-style: none;
+        font-size:20px;
+      }
+
+      .pagehome-header-login {
+        font-weight: 600;
+        border-left: 2px solid black;
+        width: 100%;
+        margin-top: 12px;
+        padding-top: 24px;
+
+        .login {
+          padding: 0;
+          text-decoration: none;
+          color: #242052;
+          font-size: 24px;
+          text-align: center;
+          margin: 0;
+          text-align: center;
+
+          .icon-user {
+            width: 100%;
+          }
+
+          .avatar {
+            height: 32px;
+            border-radius: 50%;
+            width: 100%;
+
+          }
+        }
+
+      }
+
+    }
+
+    .navbar-light {
+      animation-timing-function: ease-in-out;
+      font-size: 20px;
+      text-align: center;
+      border-bottom: 2px solid black;
+      padding: 6px 24px;
+      justify-content: space-between;
+      .home{
+        font-size:24px;
+        text-decoration: none;
+      }
+      .nav-item {
+        font-weight: 500;
+        color: black;
+      }
+.navbar-collapse{
+    justify-content: space-around;
+
+}
+      .cart {
+        display: flex;
+        padding: 6px 0;
+        justify-content: center;
+        text-decoration: none;
+        color: #242052;
+
+        .current-product {
+          position: absolute;
+          padding: 0px 6px;
+          background: #ccc;
+          top: 1px;
+          right: 57%;
+          font-size: 14px;
+          font-weight: 600;
+          border-radius: 50%;
+          margin-left: -42px;
+        }
+
+        .cart-text {
+          line-height: 36px;
+        }
+      }
+    }
+    .active-fixed {
+      position: fixed;
+      animation: mymove 1s;
+      left: 0;
+      padding: 0 18%;
+      top: 0;
+      z-index: 10;
+      background: white;
+      height: 56px !important;
+      width: 100%;
+
+      .cart-text {
+        margin-left: 12px;
+      }
+    }
+
+    @keyframes mymove {
+      from {
+        opacity: 0;
+        top: -56px
+      }
+
+      to {
+        opacity: 1;
+        height: 56px 
+      }
+    }
+
+
+
+  }
+}
